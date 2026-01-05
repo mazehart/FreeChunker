@@ -1,2 +1,2 @@
 # FreeChunker
-a chunking framework
+Refactoring code. Model weights coming soon to Hugging Face.
