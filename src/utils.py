@@ -17,7 +17,7 @@ def generate_shifted_matrix(n, device=None):
             continue
             
         # Calculate step size for this granularity
-        step_size = max(1, granularity // 2)
+        step_size = granularity
         max_start = n - granularity
         
         for start in range(0, max_start + 1, step_size):
